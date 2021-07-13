@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://cdn.glitch.com/a5a91339-abc1-4f24-8b54-7c9e48af1088%2FIMG_1717.PNG?v=1625696084399" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>type gram pacer test</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://right2jail.glitch.me/" />
+    <meta
+      name="description"
+      content="Escaping the egg police thru a typing game"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="type gram" />
+    <meta property="og:type" content="type test"/>
+    <meta property="og:url" content="https://typegram.glitch.me/" />
+    <meta
+      property="og:description"
+      content="The type gram pacer test"
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/a5a91339-abc1-4f24-8b54-7c9e48af1088%2FUntitled_Artwork%20-%202021-07-08T001228.775.png?v=1625721164209"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!--
+      This is the body of the page
+      Look at the elements and see how they appear in the rendered page on the right
+      Each element is defined using tags, with < and > indicating where each one opens and closes
+      There are elements for sections of the page, images, text, and more
+      The elements include attributes referenced in the CSS for the page style
+    -->
+    
+    <!-- The wrapper and content divs set margins and positioning -->
+    
+   
+    <div class="wrapper">
+      <div class="content">
+        <!-- This is the start of content for our page -->
+        <h1 class="title">type gram</h1>
+        <br>
+        <div>
+          <div class = "block">timer:&nbsp;</div> <div class = "block timer" id = "timer"></div>
+        </div>
+        <br>
+        <div class = "quote-display" id = "quoteDisplay">
+          press space to start
+        </div>
+        <br>
+        <input class = "quote-input" id = "quoteInput" autofocus></input>
+        <br><br>
+        
+        <div id ="cat-img">
+          <img src = "https://cdn.glitch.com/a5a91339-abc1-4f24-8b54-7c9e48af1088%2FIMG_1717.PNG?v=1625696084399" width = "100" id = "cat">
+          <br>
+          
+          <img id = "extraInfo" src = "https://cdn.glitch.com/a5a91339-abc1-4f24-8b54-7c9e48af1088%2Finfo-round-button.png?v=1625710440885" onclick = "infoShow()">
+          <br>
+          <div class = "extra-info">USER GUIDE:<br>This is a Type Gram Pacer test. <br>Type as many words as you can in 60 seconds to get your wpm. <br>Toggle the switch for dark or light mode.</div>
+          <br>
+         
+        </div>
+        
+         <div id = "wpm-msg" onclick = "gamePlayTrue()">
+           <img src = "https://cdn.glitch.com/a5a91339-abc1-4f24-8b54-7c9e48af1088%2FIMG_1717.PNG?v=1625696084399" width = "100">
+           <br>
+          <div>
+            <div class = "block">wpm:&nbsp;</div> <div class = "block" id = "score"></div>
+         </div>
+          <div>click cat to try again</div>
+          <br>
+       
+         
+        </div>
+            <label class="switch">
+            <input type="checkbox" onclick = "lightFunction()">
+            <span class="slider round"></span>
+          </label>
+         <a id = "credit" href = "https://glitch.com/@mjlee3w" class = "credit">built by mjlee3w ٩(ˊᗜˋ )و</a>
+        </div>
+       
+    </div>
+  
+  </body>
+</html>
